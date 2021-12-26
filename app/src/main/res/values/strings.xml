@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">virtual_marathon</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="registration">Registration</string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password_click_here">Forgot your password ? Click here</string>
+    <string name="email_Reset_Password">Email</string>
+    <string name="b_Reset_Password">Reset Password</string>
+    <string name="destination_distance">Destination distance</string>
+    <string name="ok">OK</string>
+    <string name="seconds">Seconds</string>
+    <string name="minutes">minutes</string>
+    <string name="hours">Hours</string>
+    <string name="days">Days</string>
+    <string name="time_to_start_a_race">Time to start a race</string>
+    <string name="next">Next</string>
+    <string name="previous">previous</string>
+    <string name="race_day">Time within race day</string>
+    <string name="type_a_message">"      "Type a message</string>
+    <string name="rating_name">Name</string>
+    <string name="rating_time">time</string>
+    <string name="rating_place">place</string>
+    <string name="race_distance_km">Distance / km</string>
+    <string name="race_time">time</string>
+    <string name="race_start">start</string>
+    <string name="race_stop">stop</string>
+    <string name="race_previous">previous</string>
+    <string name="race_next">next</string>
+    <string name="Name_is_Required.">Name is Required.</string>
+    <string name="Email_is_Required.">Email is Required.</string>
+    <string name="Password_is_Requird.">Password is Requird.</string>
+    <string name="Password_Must_be_6_Characters">Password Must be 6 Characters</string>
+    <string name="Login_error">The data are not instances
+ In the system as typed</string>
+    <string name="No_image_error">add a picture</string>
+    <string name="Registration_error">Please change password or email</string>
+    <string name="Email_error">Please check the integrity of the e-mail</string>
+    <string name="Reset_message">The complete reset checks the e-mail</string>
+    <string name="Try_again">The complete reset checks the e-mail</string>
+    <string name="race_Results">Results</string>
+    <string name="system_notice">system notice</string>
+    <string name="cease_of_action">Are you sure you want to exit? Activity data will not be saved</string>
+    <string name="b_OK">ok</string>
+    <string name="b_cancel">cancel</string>
+    <string name="Weak_GPS_signals">Weak GPS signals</string>
+    <string name="Message_Weak_GPS_signals">Location tracking may be inaccurate if the phones GPS reception is weak. Try to stay in open spaces during the race.</string>
+    <string name="Message_system_notice">1. The systems recommendation is to choose a flat route to perform the assignment ... Running uphill will save you time, running downhill will add.
+2. Try to stay in open places during the race, the location tracking may be inaccurate if the GPS reception on the phone is weak.
+ Successfully !!</string>
+    <string name="b_Return">Can not return Back during the competition</string>
+    <string name="Message_Non_running_activity">The system found that the activity was not running, so it stopped the activity.</string>
+    <string name="race_Activity_stopped">Activity stopped.</string>
+    <string name="race_The_activity_continues">The activity continues.</string>
+    <string name="Message_button_run">Wait for race day</string>
+
+</resources>

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Race.Home">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="365dp"
+        android:layout_height="502dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Race_title"
+        app:srcCompat="@drawable/ic_baseline_directions_run_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottomAppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ic_baseline_directions_run_24"
+        app:fabCradleMargin="20dp"
+        app:fabCradleRoundedCornerRadius="20dp"
+        app:fabCradleVerticalOffset="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="BottomAppBar">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/BottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/transparent"
+            app:menu="@menu/bpttom_nav_menu" />
+
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="@string/destination_distance"
+        android:textColor="#758E8B"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="@+id/progressBar"
+        app:layout_constraintTop_toTopOf="@+id/progressBar" />
+
+
+    <TextView
+        android:id="@+id/data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textColor="#758E8B"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.357" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Km"
+        android:textColor="#758E8B"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="@+id/textView24"
+        app:layout_constraintTop_toTopOf="@+id/textView24"
+        app:layout_constraintVertical_bias="0.481" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="111dp"
+        android:layout_marginRight="111dp"
+        android:progress="100"
+        android:progressDrawable="@drawable/cr"
+        android:rotation="-90"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_Time" />
+
+    <ImageButton
+        android:id="@+id/Button_run"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="152dp"
+        android:layout_marginRight="152dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/bottomAppBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/progressBar"
+        app:srcCompat="@drawable/ic_run"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/ButtonMnos"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar"
+        app:layout_constraintEnd_toStartOf="@+id/progressBar"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/progressBar"
+        app:srcCompat="@drawable/ic_baseline_keyboard_arrow_down_24"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/ButtonPls"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/ButtonMnos"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/progressBar"
+        app:layout_constraintTop_toTopOf="@+id/ButtonMnos"
+        app:srcCompat="@drawable/ic_up"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/tv_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:textColor="#758E8B"
+        app:layout_constraintBottom_toBottomOf="@+id/Button_run"
+        app:layout_constraintEnd_toEndOf="@+id/Button_run"
+        app:layout_constraintStart_toStartOf="@+id/Button_run"
+        />
+
+    <TextView
+        android:id="@+id/tv_Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorWhite"
+        android:textColor="#A7AAAC"
+        android:textSize="25dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Race_title" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView5"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:text="@string/seconds"-->
+    <!--        android:textColor="#758E8B"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView12"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/Minute_data" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/Seconds_data"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/colorWhite"-->
+    <!--        android:text="00"-->
+    <!--        android:textColor="#131313"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/textView12"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/textView5"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/textView5"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/textView12" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/Minute_data"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/colorWhite"-->
+    <!--        android:text="00"-->
+    <!--        android:textColor="#131313"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/textView12"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/textView7"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/textView7"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/textView12" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView7"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:text="@string/minutes"-->
+    <!--        android:textColor="#758E8B"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView12"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/Hours_data" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/Hours_data"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/colorWhite"-->
+    <!--        android:text="00"-->
+    <!--        android:textColor="#131313"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/textView12"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/textView9"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/textView9"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/textView12" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView11"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/days"-->
+    <!--        android:textColor="#758E8B"-->
+    <!--        app:layout_constraintBottom_toTopOf="@+id/textView12"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/textView12" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/textView9"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="20dp"-->
+    <!--        android:layout_marginLeft="20dp"-->
+    <!--        android:text="@string/hours"-->
+    <!--        android:textColor="#758E8B"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/textView11"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/Date_data" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/Date_data"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:background="@color/colorWhite"-->
+    <!--        android:text="00"-->
+    <!--        android:textSize="20dp"-->
+    <!--        android:textColor="#131313"-->
+    <!--        android:textStyle="bold"-->
+    <!--        app:layout_constraintBottom_toBottomOf="@+id/textView12"-->
+    <!--        app:layout_constraintEnd_toEndOf="@+id/textView11"-->
+    <!--        app:layout_constraintStart_toStartOf="@+id/textView11"-->
+    <!--        app:layout_constraintTop_toTopOf="@+id/textView12" />-->
+
+    <TextView
+        android:id="@+id/Race_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:text="@string/time_to_start_a_race"
+        android:textColor="#758E8B"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:textColor="#758E8B"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonPls"
+        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintStart_toStartOf="@+id/ButtonPls"
+        app:layout_constraintTop_toTopOf="@+id/ButtonPls" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/previous"
+        android:textColor="#758E8B"
+        app:layout_constraintEnd_toEndOf="@+id/ButtonMnos"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="@+id/ButtonMnos"
+        app:layout_constraintTop_toTopOf="@+id/ButtonMnos" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="68dp"
+        android:layout_height="54dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--       android:id="@+id/run"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:src="@drawable/ic_run"-->
+    <!--        android:onClick="b_run"-->
+    <!--        app:layout_anchor="@id/bottomAppBar"-->
+    <!--        />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--    <item android:id="@+id/rating_2km"-->
+<!--        android:title="rating 2km"-->
+<!--        android:icon="@drawable/ic_baseline_emoji_events_24"-->
+<!--       />-->
+
+<!--    <item android:id="@+id/rating_5km"-->
+<!--        android:title="rating 5km"-->
+<!--        android:icon="@drawable/ic_baseline_emoji_events_24"-->
+<!--        />-->
+
+<!--    <item android:id="@+id/rating_10km"-->
+<!--        android:title="rating 10km"-->
+<!--        android:icon="@drawable/ic_baseline_emoji_events_24"-->
+<!--        />-->
+
+<!--    <item android:id="@+id/rating_21km"-->
+<!--        android:title="rating 21km"-->
+<!--        android:icon="@drawable/ic_baseline_emoji_events_24"-->
+<!--        />-->
+
+<!--    <item android:id="@+id/rating_42km"-->
+<!--        android:title="rating 42km"-->
+<!--        android:icon="@drawable/ic_baseline_emoji_events_24"-->
+<!--        />-->
+
+    <item android:id="@+id/up"
+        android:title="@string/race_next"
+        android:icon="@drawable/ic_up"
+        />
+
+    <item android:id="@+id/rating"
+        android:title=""
+        />
+
+    <item android:id="@+id/down"
+        android:title="@string/race_previous"
+        android:icon="@drawable/ic_baseline_keyboard_arrow_down_24"
+        />
+
+</menu>

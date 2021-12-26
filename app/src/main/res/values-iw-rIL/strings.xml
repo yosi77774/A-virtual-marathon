@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">מרתון וירטואלי</string>
+    <string name="email">אימייל</string>
+    <string name="name">שם</string>
+    <string name="password">סיסמה</string>
+    <string name="registration">הרשמה</string>
+    <string name="login">חיבור</string>
+    <string name="forgot_your_password_click_here">שכחת סיסמה ? לחץ כאן</string>
+    <string name="email_Reset_Password">אימייל</string>
+    <string name="b_Reset_Password">איפוס סיסמה</string>
+    <string name="destination_distance">מרחק היעד</string>
+    <string name="ok">אישור</string>
+    <string name="seconds">שניות</string>
+    <string name="minutes">דקות</string>
+    <string name="hours">שעות</string>
+    <string name="days">ימים</string>
+    <string name="time_to_start_a_race">זמן לתחילת יום המרוץ</string>
+    <string name="next">הבא</string>
+    <string name="previous">הקודם</string>
+    <string name="race_day">זמן לסיום יום המרוץ</string>
+    <string name="type_a_message">"      "הקלד/י הודעה</string>
+    <string name="rating_name">שם</string>
+    <string name="rating_time">זמן</string>
+    <string name="rating_place">מקום</string>
+    <string name="race_distance_km">מרחק</string>
+    <string name="race_time">זמן</string>
+    <string name="race_start">התחל</string>
+    <string name="race_stop">הפסק</string>
+    <string name="race_previous">המקצה הקודם</string>
+    <string name="race_next">המקצה הבא</string>
+    <string name="Name_is_Required.">נדרש שם.</string>
+    <string name="Email_is_Required.">נדרש אימייל.</string>
+    <string name="Password_is_Requird.">סיסמה נדרשת.</string>
+    <string name="Password_Must_be_6_Characters">הסיסמה חייבת להיות בת 6 תווים.</string>
+    <string name="Login_error">הנתונים אינם מופעים במערכת כפי שהוקלדו</string>
+    <string name="No_image_error">הוסף תמונה</string>
+    <string name="Registration_error">נא החלף סיסמה או מייל </string>
+    <string name="Email_error">נא בדוק את תקינות הדואר האלקטרוני</string>
+    <string name="Reset_message">האיפוס הושלם בודק את הדואר הלקטרוני</string>
+    <string name="Try_again">נסה שוב קרה משהו שגוי</string>
+    <string name="race_Results">תוצאות</string>
+    <string name="system_notice">הודעת מערכת</string>
+    <string name="cease_of_action">אתה בטוח שברצונך לצאת ?
+ נתוני הפעילות לא ישמרו</string>
+    <string name="b_OK">אישור</string>
+    <string name="b_cancel">ביטול</string>
+    <string name="Weak_GPS_signals">Weak GPS signals</string>
+    <string name="Message_Weak_GPS_signals">יתכן שמעקב המיקום יהיה בלתי מדויק אם קליטת ה-GPS בטלפון חלשה. נסה להישאר במקומות פתוחים במהלך המרוץ.</string>
+    <string name="Message_system_notice">1.המלצת המערכת לבחור מסלול מישורי לביצוע המקצה...ריצה בעליה תוריד לך זמן ,ריצה בירידה תוסיף.
+2. נסה להישאר במקומות פתוחים במהלך המרוץ,יתכן שמעקב המיקום יהיה בלתי מדויק אם קליטת ה-GPS בטלפון חלשה.
+ בהצלחה !!</string>
+    <string name="b_Return">    לא ניתן לחזור
+ אחורה בזמן התחרות</string>
+    <string name="Message_Non_running_activity">המערכת מצאה כי הפעילות לא מתבצעת בריצה, ולכן עצרה את הפעילות.</string>
+    <string name="race_Activity_stopped">הפעילות הופסקה.</string>
+    <string name="race_The_activity_continues">הפעילות נמשכת.</string>
+    <string name="Message_button_run">המתן ליום מרוץ</string>
+
+
+</resources>
